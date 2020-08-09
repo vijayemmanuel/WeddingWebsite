@@ -1,0 +1,347 @@
+/**
+ * http://weddingpath.co.uk/
+ * modified from: http://static.weddingpath.co.uk/paths/templates/websiteSchemes/peterong/silkandpaper/style.css
+ *
+ */
+/*Basic Elements
+*/
+
+body  { 
+	background-image: url(../images/background.gif); 
+	/* background-color: #E1DFC8; */
+	text-align: center; 
+	margin: 0; 
+	padding: 0; 
+	font-family: Helvetica, sans-serif;
+		/*font-family: Zapf Chancery, cursive, Helvetica, sans-serif; 	
+	*/font-size: 62.5%;
+}
+
+a, a:link, a:visited, a:hover, a:active { 
+	color: #555555;
+	text-decoration: underline; 
+}
+
+/*Layout Divs*/
+#container { 
+	background-color: #fff; 
+	margin: 10px auto 0; 
+	padding: 0; 
+	width: 700px; 
+	border: solid 1px #e2e1bf;
+}
+
+#header  { 
+	margin-top: 1px; 
+	margin-right: auto; 
+	margin-left: auto; 
+	padding: 0; 
+	width: 700px;
+	height: 180px; 
+}
+
+#title {  
+	margin-top: 145px 
+}
+
+#content { 
+	color: #636363; 
+	font-size: 12px;  
+	line-height: 18px; 
+	text-align: left; 
+	margin: 0; 
+	padding: 0 50px 20px 0; 
+	width: 400px; 
+	overflow-x: hidden;
+	float: right 
+}
+
+#content .header-img {
+  margin-bottom: 5px;
+}
+
+#content .header-img img {
+  border: 3px solid #CCCCCC; 	
+}
+#content .header {
+	text-align: center;
+	padding-top: 30px;
+} 
+#poem{ 
+	color: #777777;
+	text-align: center;
+	font-style: italic;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size:15px;
+}
+
+#datebar { 
+	color: #333; 
+	font-size: 11px; 
+	font-style: normal; 
+	margin-top: 1px; 
+	margin-right: 20px; 
+	margin-left: 20px 
+}
+
+#menu { 
+	text-align: left; 
+	margin: 0; 
+	padding: 0 0 0 60px; 
+	width: 180px; 
+	height: 100%; 
+	float: left 
+}
+
+#dbLeft { 
+	color: #777777;
+	text-align: left; 
+	width: 40%; 
+	float: left 
+}
+
+#dbRight { 
+	color: #777777;
+	text-align: right; 
+	width: 40%; 
+	float: right 
+}
+
+#footer  { 
+	background-image: url(../images/footer.jpg); 
+	background-repeat: no-repeat; 	background-position: center bottom; 
+	margin-right: auto; 
+	margin-bottom: 6px; 
+	margin-left: auto; 	width: 700px; 
+	height: 50px; 
+	float: left; 
+	clear: right 
+}
+
+/*Navigation*/
+
+#menu h2  { 
+	background-image: url(../images/menu.png); 
+	background-repeat: no-repeat; 
+	display: block; 	margin: 0; 
+	padding: 0; 
+	width: 80px; 
+	height: 35px; 
+	border-bottom: 1px solid #e2e1bf; 
+}
+
+#menu h2 span { 
+	text-align: left; 
+	display: none; 
+	margin: 0; 
+	padding: 0; 
+}
+
+#menu ul  { 
+	font-size: 11px; 
+	line-height: 20px; 
+	margin: 0 0 0 12px; 
+	padding: 15px 0 0; 
+	border-left: 1px solid #e2e1bf; 
+}
+
+#menu ul ul  { 
+	line-height: 20px; 
+	margin: 0; 
+	padding: 0 0 18px 0; 
+	border-style: none;
+}
+
+#menu ul li { 
+	list-style-type: none; 
+	margin: 0; 
+	padding: 0 0 0 20px; 
+}
+
+#menu ul li a:link,
+#menu ul li span{ 
+	color: #7a7a7a; 
+}
+
+#menu ul li a:visited { 
+	color: #7a7a7a; 
+}
+
+#menu ul li a:hover  { 
+	/* color: #c9a900; */
+	color: #000000;
+}
+
+#menu ul li a:active  { 
+	color: #7a7a7a; 
+}
+
+a:link.submenu_Items, a:visited.submenu_Items, a:hover.submenu_Items, a:active.submenu_Items { 
+	margin: 0; 
+	padding: 0 0 0 20px; 
+	text-decoration: none;
+}
+
+/*Text Styling*/
+
+#header h1  { 
+	color: #888888;  
+	font-style: italic; 	font-weight: normal; 
+}
+
+#content h3 { 
+	font-size: 21px; 
+	font-weight: normal; 	margin: 18px 0 0; 
+	padding: 0; 
+}
+
+#content p { 
+	margin-left: 10px; 
+}
+
+/*Supporting Elements*/
+.clear { 
+	margin: 0; 
+	padding: 0; 
+	clear: both; 
+}
+
+#rings  { 
+	background-image: url(../images/rings.jpg); 
+	background-repeat: no-repeat; 
+	margin:100px 0 0; 	width: 160px; 
+	height: 120px; 
+}
+
+#creator { 
+	color: #7a7a7a; 
+	font-size: 10px; 
+	text-align: right; 
+	margin: 20px 50px 30px 0; 
+	padding: 0; 
+}
+
+a img { 
+	vertical-align: middle; 
+	border: none; 
+}
+
+.photoframe  { 
+	margin: 4px auto; 
+	padding: 8px; 
+	border: solid 1px #cccccc; 
+}
+
+
+/* Added Stuff */
+.wptext {
+	font-size: 12px;
+	line-height: 1.9;
+	text-align: justify;
+	margin-bottom: 20px;
+}
+
+.rightAlignedText {
+	text-align: right;
+}
+
+table.forumTable {
+	border-top: 1px #aaa solid;
+	border-right: 1px #aaa solid;
+}
+
+td.forumHeader {
+	background-color: #E1DFC8; 
+	/* background-color: #E2E4E9; */
+	color: #666666;
+	font-size: 11px;
+	border-left: 1px #aaa solid;
+ 	border-bottom: 1px #aaa solid;
+ 	padding: 7px;
+	text-align: center;
+}
+
+tr.forumOdd td {
+	border-bottom: 1px #aaa solid;
+border-left: 1px #aaa solid;
+padding-left: 5px;
+padding-right: 5px;
+font-size: 11px;
+color: #555555;
+}
+
+tr.forumEven td {
+border-bottom: 1px #aaa solid;
+border-left: 1px #aaa solid;
+padding-left: 5px;
+padding-right: 5px;
+font-size: 11px;
+color: #555555;
+}
+
+td.forumHeader img {
+	text-align: center;
+}
+
+
+tr.forumOdd {
+	background-color: #ffffff;
+}
+
+tr.forumEven {
+	/*background-color: #efefef; */
+	background-color: #F6F5EE;
+border: 1px #aaa solid;
+}
+
+div.forForm {
+	color: #3f6ca5;
+      font-size: 12px;
+}
+
+h4 {
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    color: #3f6ca5;
+}
+
+h4 a:link, h4 a:visited {
+    color: #61728B;
+}
+
+.radiobutton {
+	border: 0, 0, 0, 0;
+}
+
+.mobile {
+  display: none;
+}
+
+
+.submit {
+  padding-top:10px;
+}
+
+.error {
+  background-color: #ffcccc; 
+}
+
+.wptext a img {
+  border: 2px solid #CCCCCC;
+  margin: 5px 0;
+}
+
+.wptext a.blank img {
+  border: 0;
+}
+
+.subtitle {
+  text-align: center;
+  padding: 30px 0 10px 0;
+}
+
+.menu-spacer {
+  text-align: center;
+  padding: 5px 0 10px 0;
+}

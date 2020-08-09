@@ -1,0 +1,3 @@
+blacklist:
+- subnet: 193.105.210.174
+  description: a single IP address
